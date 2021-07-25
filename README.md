@@ -1,17 +1,22 @@
 # scrcpy_auto_start
 scrcpy 开机自启动 usb/wifi 手机自动投屏 便捷脚本
-
+实现类似华为碰一碰投屏的功能
 ```
 https://github.com/Genymobile/scrcpy/releases
 https://github.com/Genymobile/scrcpy/blob/master/README.zh-Hans.md
 ```
 
+# 使用方法
+
+将 auto-start-usb.vbs 或 auto-start-wifi.vbs 添加到电脑开机自启动
+
+或者电脑开机后双击文件手动启动
 
 # 两种模式 USB投屏 和 WIFI投屏
 
-USB模式下设置脚本开机自启动，当设备数据线连接电脑时自动投屏。
+USB模式下设置脚本开机自启动，当设备（手机）数据线连接电脑时自动投屏。
 
-WIFI模式下设置脚本开机自启动，当设备连入同一WiFi时电脑自动投屏。
+WIFI模式下设置脚本开机自启动，当设备（手机）连入同一WiFi时电脑自动投屏。
 
 ## 1.开发者模式 开启 usb调试
 
